@@ -1,5 +1,5 @@
 # In setup.cfg, don't forgot : "USE_UMS=true"
-# you can run any payloads with P4wnP1 and this ducky scipt :
+# you can run any payloads with P4wnP1 and this ducky script :
 #
 # more information : https://www.youtube.com/watch?v=ULh_Zilfwe8&t=143s
 
